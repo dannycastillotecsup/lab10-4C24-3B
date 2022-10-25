@@ -9,6 +9,17 @@ import org.junit.Test;
  */
 public class AppTest 
 {
+	@Test
+    public void testDividir() {        
+        App app = new App();        
+        assertEquals(7 , app.dividir(4, 3));
+    }
+    
+    @Test
+    public void testMultiplicar() {        
+        App app = new App();        
+        assertEquals(7 , app.multiplicar(4, 3));
+    }
 
 	@Test
 	public void testSumar() {		
